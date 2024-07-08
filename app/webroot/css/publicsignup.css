@@ -1,0 +1,1013 @@
+.contact-deatils {
+    padding: 80px 0 50px;
+    background: #E3E7EA;
+}
+.contact-deatils .contact-form {
+    max-width: 660px;
+    margin: 0 auto;
+
+}
+.form {
+    /*border: 1px solid #d3d7d9;*/
+    background: #fff;
+    border-top: 0px;
+}
+.form .submit-btnotr {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.form-hdg {
+    /*border: 1px solid #40c700;*/
+    margin: 0;
+    background: #e9f9e0 url(../images/signup/arrow.png) no-repeat 95% center;
+    margin-top: 20px;
+}
+.form-hdg .fh-inr {
+    color: #1f1f1f;
+    /*background: url(../images/signup/tick.png) no-repeat 30px center;*/
+    line-height: 55px;
+    margin: 0;
+    font-size: 1.0em;
+    color: #777;
+    font-weight: 500;
+
+    padding: 0 55px;
+}
+.form-hdg.ui-accordion-header-active {
+    /*border: 1px solid #d3d7d9;*/
+    border-bottom: 0px;
+    background: #fff;
+}
+.form-hdg {
+    /*border: 1px solid #d3d7d9;*/
+    margin: 0;
+    background: #fff;
+}
+.form-hdg.active {
+    border: 1px solid #40c700;
+    margin: 0;
+    background: #e9f9e0 url(../images/signup/arrow.png) no-repeat 95% center;
+    margin-top: 20px;
+}
+.form-hdg.ui-accordion-header.active .fh-inr {
+    color: #1f1f1f;
+    /*background: url(../images/signup/tick.png) no-repeat 30px center;*/
+    line-height: 100px;
+    margin: 0;
+    font-size: 48px;
+    color: #777;
+    font-weight: 300;
+    padding: 0 55px;
+}
+.form-hdg.ui-accordion-header .fh-inr {
+    background: none;
+}
+.form-hdg.ui-accordion-header-active .fh-inr {
+    background: none;
+}
+.secondary-contact .form-hdg {
+    border: 0 !important;
+    background: none !important;
+    margin: 0 !important;
+}
+.secondary-contact .form-hdg .fh-inr {
+    background: none !important;
+}
+.secondary-supply .form-hdg {
+    border: 0 !important;
+    background: none !important;
+    margin: 0 !important;
+}
+.secondary-supply .form-hdg .fh-inr {
+    background: none !important;
+}
+.form .form-data {
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+.form .form-data .row {
+    margin: 0;
+}
+.form .form-data .form-group {
+    margin-bottom: 0px;
+    margin-top: 25px;
+    padding: 0 15px;
+}
+.form .form-data label {
+    color: #777;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+    display: block;
+}
+/*******************
+*****	14/10/2015
+*****	Okkey Sumiyoshi
+*****	Updated on Online Signup project
+********* Change begins *******/
+
+/*****   ******/
+iframe, object, embed {
+        max-width: 100%;
+}
+
+p.questionaire {
+	padding 0 10px 0 0;
+}
+
+.singup-info-box {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 0;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.info-bottom {
+	margin-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .pdt125 {
+		padding-top:30px !important;
+    }
+}
+
+#accordionWrapper{
+
+}
+
+.leftPane{
+	background: #fff;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.leftPaneHeader{
+	font-size: 26px !important;
+    font-weight: 300;
+    margin: 0;
+    padding: 40px;
+}
+
+.error_signupContract{
+	color:#ff4401;
+	font-weight: 500;
+}
+
+
+
+input.error_signupContract[type="text"]::before {
+    background: #ccc none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    width: 30px;
+}
+
+.col_pobox{
+	display:none;
+}
+
+
+input.orange-button[type="submit"] {
+    background: #f38523 none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    font: 400 28px "Raleway" !important;
+    min-width: 280px;
+    padding: 30px !important;
+}
+
+input.submit-btn {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    background: #f38523 none repeat scroll 0 0;
+    border: 1px solid #cecece;
+}
+input.submit-btn:hover,
+input.submit-btn.active {
+    background: #1d76b8;
+    color: #fff;
+    border: 1px solid #1d76b8;
+}
+
+
+span.dollarSign{
+	font-size:1.4em;
+	font-weight:500;
+}
+p.retailer_name{
+	font-size:1.2em;
+	font-weight:500;
+}
+
+p.summary{
+	font-size:1.5em;
+	font-weight:500;
+	border-bottom-width: 1px;
+  	border-bottom-style: solid;
+  	border-bottom-color: #cccccc;
+  	padding-bottom:5px;
+}
+
+h3.AC-Primary{
+	border-top: 1px solid #cccccc;
+    color: #333;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 40px;
+}
+/*
+input.error_signupContract[type="text"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff url("../images/cross.png") no-repeat scroll right 10px center;
+    border-bottom: 2px solid #ff4401 !important;
+    border-image: none;
+    border-left: 2px solid #ff4401;
+    border-right: 2px solid #ff4401;
+    border-top: 2px solid #ff4401 !important;
+    color: #ff4401;
+    transition-duration: 0.5s;
+}
+*/
+/*
+input[type=checkbox] + label {
+  background: url(http://lorempixel.com/output/people-q-c-50-50-1.jpg) no-repeat;
+  height: 50px;
+  width: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.4s;
+  border: solid 5px #FFF;
+  box-shadow: 0 0 1px #FFF; /* Soften the jagged edge */
+}
+*/
+/* Provide a border when hovered and when the checkbox before it is checked */
+input[type=checkbox] + label:hover,
+input[type=checkbox]:checked + label {
+  border: solid 5px #F00;
+  box-shadow: 0 0 1px #F00; /* Soften the jagged edge */
+}
+
+/*
+- Create a pseudo element :after when checked and provide a tick
+- Center the content
+*/
+/*
+input[type=checkbox]:checked + label:after {
+  content: '\2714'; /*content is required, though it can be empty - content: '';*/
+  display: block;
+  height: 1em;
+  width: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: #F00;
+}
+*/
+/* Change Ends *******/
+
+
+.form .form-data input[type=text],
+input[type=text],
+.form .form-data input[type=number],
+.form .form-data input[type=email],
+.form .form-data input[type=date],
+.form .form-data select {
+    border: 1px solid #cecece;
+    font-size: 18px;
+    font-weight: 400;
+    color: #202020;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.bootstrap-select .btn {
+    background: rgba(0, 0, 0, 0) url("../images/signup/select-bg.png") repeat-x scroll left center;
+    padding: 10px 12px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+	 height: 54px;
+}
+
+/****/
+.form .form-data input[type=date] {
+    padding: 6px 10px;
+}
+.form .checkbox-sec {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+.form .checkbox-sec input[type=checkbox] {
+    position: relative;
+    top: -3px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.selectBox-dropdown {
+    border: 1px solid #cecece;
+    font-size: 20px;
+    font-weight: 400;
+    color: #202020;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    background: url(../images/signup/select-bg.png) repeat-x left center;
+    overflow: hidden;
+}
+.selectBox-arrow {
+    background: url(../images/signup/select-dropdown.png) no-repeat left center;
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    right: 10px;
+    top: 50%;
+    margin-top: -4px;
+}
+.selectBox-options {
+    position: absolute;
+    border-bottom: 1px solid #E5E5E5;
+    padding-top: 17px;
+    border-radius: 3px;
+    background: url(../images/signup/top-arrow.png) no-repeat 98% 5px;
+    overflow: hidden;
+}
+.selectBox-options li:first-child {
+    border-radius: 3px 3px 0 0;
+}
+.selectBox-options li {
+    border: 1px solid #E5E5E5;
+    border-bottom: 0px;
+    background: #fff;
+    cursor: pointer;
+}
+.selectBox-options li a {
+    color: #202020;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    display: block;
+}
+.selectBox-options li a:hover {
+    background: #E5E5E5;
+}
+.selectBox-options.selectBox-options-top {
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 17px;
+    border-radius: 3px;
+    background: url(../images/signup/top-arrow1.png) no-repeat 98% bottom;
+}
+.selectBox-options.selectBox-options-top li {
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 0px;
+    background: #fff;
+    cursor: pointer;
+}
+.selectBox-options.selectBox-options-top li:first-child {
+    border-radius: 0 0 3px 3px;
+}
+.secondary-contact,
+.secondary-identification,
+.secondary-supply,
+.secondary-final,
+.mirnaddress {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    background: #F6F6F6;
+    padding-bottom: 20px;
+}
+.secondary-contact h4 {
+    color: #777766;
+}
+.form .secondary-contact .form-hdg h4 {
+    padding: 0 45px;
+}
+.form .secondary-contact .form-data {
+    border-top: 1px solid #e9e9e9;
+}
+.form .secondary-contact .form-group {
+    padding: 0 5px;
+}
+input.error-msg {
+    border: 1px solid #ff4300 !important;
+    color: #ff4000 !important;
+    background: #ffe8df url(../images/signup/error-msg.png) no-repeat 96% center !important;
+}
+select.error-msg,
+.selectBox-dropdown.error-msg {
+    border: 1px solid #ff4300 !important;
+    color: #ff4000 !important;
+}
+input.success-msg {
+    border: 1px solid #40c700 !important;
+    background: url(../images/signup/success-msg.png) no-repeat 96% center !important;
+}
+select.success-msg,
+.selectBox-dropdown.success-msg {
+    border: 1px solid #40c700 !important;
+}
+.form input.error {
+    border: 1px solid #ff4300 !important;
+    color: #ff4000 !important;
+    background: #ffe8df url(../images/signup/error-msg.png) no-repeat 96% center !important;
+}
+.form select.error {
+    border: 1px solid #ff4300 !important;
+    color: #ff4000 !important;
+    border-radius: 5px;
+}
+.form input.valid {
+    border: 1px solid #40c700 !important;
+    background: url(../images/signup/success-msg.png) no-repeat 96% center !important;
+}
+.form select.valid {
+    border: 1px solid #40c700 !important;
+    background: none !important
+}
+.form .bootstrap-select.valid {
+    border: 0px !important;
+    background: none !important;
+}
+.form .bootstrap-select.error .btn-default {
+    border: 1px solid #ff4300 !important;
+    color: #ff4000 !important;
+    border-radius: 5px;
+}
+.form .bootstrap-select.valid .btn-default {
+    border: 1px solid #40c700 !important;
+    border-radius: 5px;
+}
+.yes-no-btn .butn {
+    color: #1f1f1f;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #1f1f1f;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 400;
+    background: #fff;
+    padding: 5px 20px;
+}
+.yes-no-btn .butn:hover,
+.yes-no-btn .butn.select-btn {
+    background: #1f1f1f;
+    color: #fff;
+}
+.read-msg {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 20px 35px 20px 50px;
+    margin-top: 30px;
+}
+.read-msg .commmentmsg {
+    background: url(../images/signup/comment.png) no-repeat left top;
+    width: 30px;
+    height: 26px;
+    position: absolute;
+    left: 12px;
+    top: 18px;
+    display: block;
+    cursor: pointer;
+}
+.read-msg .commmentmsg .rq {
+    position: absolute;
+    border: 1px solid #E5E5E5;
+    padding: 5px;
+    font-size: 14px;
+    color: #ff0000;
+    background: #fff;
+    bottom: 33px;
+    word-wrap: nowrap;
+    white-space: nowrap;
+    left: 0;
+    display: none;
+}
+.read-msg .commmentmsg .rq:after,
+.read-msg .commmentmsg .rq:before {
+    top: 100%;
+    left: 6%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.read-msg .commmentmsg .rq:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 5px;
+    margin-left: -5px;
+}
+.read-msg .commmentmsg .rq:before {
+    border-color: rgba(229, 229, 229, 0);
+    border-top-color: #E5E5E5;
+    border-width: 6px;
+    margin-left: -6px;
+}
+.read-msg .commmentmsg:hover .rq {
+    display: block;
+}
+.read-msg h5 {
+    font-size: 17px;
+    margin: 0;
+    text-decoration: uppercase;
+    font-weight: 600;
+    color: #1f1f1f;
+    position: relative;
+}
+.read-msg p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1f1f1f;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.read-msg h5 input {
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.read-msg.bgred {
+    background: #ffe8df;
+}
+.read-msg.bgred h5 {
+    color: #ff0000;
+}
+.read-msg.bgred p {
+    color: #ff0000;
+}
+.read-msg.bgylw {
+    background: #F6F5B2;
+}
+.read-msg.bgylw h5 {
+    color: #43422D;
+}
+.read-msg.bgylw p {
+    color: #43422D;
+}
+.bggrey {
+    background: #F6F6F6;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+.open-pdf {
+    border: 1px solid #cecece;
+    font-size: 20px;
+    font-weight: 400;
+    color: #202020;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 60px;
+    background: url(../images/signup/pdf.png) no-repeat 15px center;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+}
+.submit-from-otr {
+    float: left;
+    width: 100%;
+}
+.submit-from {
+    background: #1d76b8;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 25px 80px;
+    float: right;
+}
+.poRltv {
+    position: relative;
+}
+.ui-autocomplete {
+    width: 200px;
+    background: #fff;
+    overflow: auto;
+    border-radius: 0 0 5px 5px;
+    padding-top: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.ui-autocomplete li {
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #333;
+    list-style: none;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.ui-autocomplete li:hover {
+    background: #155491;
+    color: #fff;
+}
+.form_detail_contact,
+.secondary-contact,
+.form_data_identification,
+.form_detail_identification,
+.form_data_supply,
+.form_detail_supply,
+.form_data_final,
+.form_detail_final {
+    display: none;
+}
+label.error {
+	color:#ff4401;
+	font-weight: 500;
+    display:inline-block;
+}
+.display_hide {
+    display: none;
+}
+.identificationVerbatim .selectBox {
+    width: 100% !important;
+}
+.read-msg .yes-no-btn .form-group,
+.read-msg .yes-no-btn .col-xs-12 {
+    padding-left: 0px;
+}
+.form .form-data .bootstrap-select {
+    width: 100% !important;
+}
+.form .form-data .bootstrap-select .btn {
+    padding: 10px 12px;
+    background: url(../images/signup/select-bg.png) repeat-x left center;
+}
+.form .form-data .bootstrap-select.btn-group .btn .caret {
+    right: 6px;
+}
+.checkbox-sec input[type="checkbox"] {
+    display: none;
+}
+.checkbox-clone {
+    display: inline-block !important;
+    padding: 0 !important;
+    width: 18px !important;
+    height: 18px !important;
+    border: 1px solid #E2E2E2;
+    margin-left: 5px;
+    margin-right: 5px !important;
+    position: relative;
+    top: 4px;
+}
+.checkbox-sec input[type="checkbox"]:checked + .checkbox-clone {
+    background: url(../images/signup/checkbox-tick.png) no-repeat center center;
+}
+.inner-form-sec {
+    margin-top: 0px !important;
+    padding: 0px !important;
+}
+.inner-form-sec .field-col {
+    padding-left: 0px !important;
+}
+.lookup-btn,
+.movein-fees-btn,
+.noemail-btn {
+    border: 1px solid #cecece;
+    background: none;
+    border-radius: 5px;
+    color: #777;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 11px 0;
+    cursor: pointer;
+}
+.pdr0 {
+    padding-right: 0px !important;
+}
+.lookup-btn:hover,
+.lookup-btn.active {
+    background: none repeat scroll 0 0 #1D76B8;
+    border: 1px solid #1D76B8;
+    color: #FFFFFF;
+}
+.movein-fees-btn:hover,
+.movein-fees-btn.active {
+    background: none repeat scroll 0 0 #1D76B8;
+    border: 1px solid #1D76B8;
+    color: #FFFFFF;
+}
+.noemail-btn:hover,
+.noemail-btn.active {
+    background: none repeat scroll 0 0 #1D76B8;
+    border: 1px solid #1D76B8;
+    color: #FFFFFF;
+}
+.ui-accordion-header-icon {
+    display: none;
+}
+.font17 {
+    font-size: 17px !important;
+}
+.form-data .calender-icon {
+    background: #fff url(../images/celender.png) no-repeat 98% 8px;
+}
+.form-data .form-group:first-child {
+    margin-top: 3px;
+}
+.form-data .bootstrap-select.btn-group .btn .filter-option {
+    padding-right: 17px;
+}
+/* placeholder */
+
+.form .form-data input[type="text"]::-webkit-input-placeholder,
+.form .form-data input[type="number"]::-webkit-input-placeholder,
+.form .form-data input[type="tel"]::-webkit-input-placeholder,
+.form .form-data input[type="email"]::-webkit-input-placeholder,
+.form .form-data input[type="date"]::-webkit-input-placeholder,
+.form .form-data select::-webkit-input-placeholder {
+    color: rgb(32, 32, 32);
+}
+.form .form-data input[type="text"]:-moz-placeholder,
+.form .form-data input[type="number"]:-moz-placeholder,
+.form .form-data input[type="tel"]:-moz-placeholder,
+.form .form-data input[type="email"]:-moz-placeholder,
+.form .form-data input[type="date"]:-moz-placeholder,
+.form .form-data select:-moz-placeholder {
+    color: rgb(32, 32, 32);
+}
+.form .form-data input[type="text"]::-moz-placeholder,
+.form .form-data input[type="number"]::-moz-placeholder,
+.form .form-data input[type="tel"]::-moz-placeholder,
+.form .form-data input[type="email"]::-moz-placeholder,
+.form .form-data input[type="date"]::-moz-placeholder,
+.form .form-data select::-moz-placeholder {
+    color: rgb(32, 32, 32);
+}
+.form .form-data input[type="text"]:-ms-input-placeholder,
+.form .form-data input[type="number"]:-ms-input-placeholder,
+.form .form-data input[type="number"]:-ms-input-placeholder,
+.form .form-data input[type="tel"]:-ms-input-placeholder,
+.form .form-data input[type="date"]:-ms-input-placeholder,
+.form .form-data select:-ms-input-placeholders {
+    color: rgb(32, 32, 32);
+}
+header blockquote {
+    border-left: medium none;
+    margin-top: 30px;
+}
+.form-group ul, ol {
+    padding-left: 20px;
+}
+.form-group ul, ol, li {
+    list-style: circle;
+    color: #1f1f1f;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.form-group td, th {
+    font-size: 15px;
+    font-weight: bold;
+}
+/**************************************************************************/
+.header {
+	padding: 15px !important;
+}
+.ui-accordion-header {
+	margin: 0 !important;
+}
+.ui-accordion-content {
+	padding: 0 40px !important;
+	margin: 0 0 25px;
+}
+.ui-accordion-content .ui-accordion-content {
+	padding: 0 !important;
+}
+.ui-accordion-content p {
+	font-size: 17px;
+	color: #1f1f1f !important;
+	margin: 0 0 20px;
+}
+.btn-border-blue  {
+	background: none !important;
+	border: 1px solid #1d76b8 !important;
+	color: #1d76b8 !important;
+}
+label {
+	color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px 10px;
+}
+.row {
+	float: none !important;
+	width: auto;
+}
+.bootstrap-select {
+    height: 54px;
+}
+.bootstrap-select .btn {
+	background-position: center bottom;
+}
+.leftPane-bottom {
+	border-top: 1px solid #cccccc;
+	padding: 40px 40px 60px;
+}
+#SubmitBtn {
+	background: #f38523 none repeat scroll 0 0;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px!important;
+    width: 100%;
+}
+#SubmitBtn:hover,
+#SubmitBtn:focus {
+	background: #da781f;
+}
+.supplier_logo {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	text-align: center;
+}
+span.dollarSign {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+p.elecimg,
+p.gasimg {
+	position: relative;
+}
+p.elecimg:after,
+p.gasimg:after {
+	content: "";
+	width: 15px;
+	height: 32px;
+	top: 8px;
+	position: absolute;
+}
+p.elecimg:after {
+	background-image: url('../images/publicSignup/elec.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+p.gasimg:after {
+	background-image: url('../images/publicSignup/gas.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.deal_options_box {
+	padding: 30px 40px;
+	margin: 0 -40px;
+}
+.deal_options_box + .deal_options_box {
+	margin-bottom: 20px;
+}
+.deal_options_box.yellow {
+	background: #f6f6b1;
+	color: #000;
+}
+.deal_options_box.orange {
+	background: #ffe8df;
+	color: #d93600;
+}
+.deal_options_box h4 {
+	margin: 0 0 15px;
+	font-weight: 600;
+    font-family: "Source Sans Pro",sans-serif;
+}
+.deal_options_box.yellow p {
+	color: #000 !important;
+}
+.deal_options_box.orange p {
+	color: #d93600 !important;
+}
+.form-control.valid, .valid {
+	border-width: 1px !important;
+	height: 54px !important;
+}
+input.error[type="text"] {
+	background: #ffe8df !important;
+	border-width: 1px !important;
+}
+input.error_signupContract {
+	background: #ffe8df !important;
+	border-color: #ff4401 !important;
+}
+
+.error::-webkit-input-placeholder,
+.error_signupContract::-webkit-input-placeholder {
+   color: #d93600 !important;
+}
+.error:-moz-placeholder,
+.error_signupContract:-moz-placeholder {
+   color: #d93600 !important;
+}
+.error::-moz-placeholder,
+.error_signupContract::-moz-placeholder {
+   color: #d93600 !important;
+}
+.error:-ms-input-placeholder,
+.error_signupContract:-ms-input-placeholder {
+   color: #d93600 !important;
+}
+
+.thank_element {
+	border-top: 1px solid #cccccc;
+	padding: 30px 40px;
+}
+.thank_element h4 {
+	font-size: 22px;
+	font-weight: 500;
+	margin: 0 0 20px;
+	color: #333;
+}
+.thank_element ul li {
+	list-style: outside none disc !important;
+	margin: 0 0 5px !important;
+}
+.thank_element a {
+	color: #33373a;
+}
+
+.confirmation-modal {
+    z-index: 999997;
+}
+.modal-backdrop {
+    z-index: 999996;
+}
+.confirmation-modal .modal-content {
+	background: #eeeeee;
+	padding: 50px;
+	border-radius: 0 !important;
+}
+.confirmation-modal .modal-header {
+    padding: 0 0 15px !important;
+}
+.confirmation-modal .modal-header h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+.confirmation-modal .modal-body {
+    font-size: 20px;
+    padding: 0 0 15px !important;
+}
+.confirmation-modal .modal-footer {
+    border-top: none;
+    padding: 0;
+    text-align: left;
+}
+.confirmation-modal .btn {
+	border: none !important;
+	font-size: 21px !important;
+}
+.confirmation-modal .cancel {
+	float: left;
+	background: none !important;
+	color: #1d76b8;
+	padding: 15px 0 !important;
+}
+.confirmation-modal .cancel:hover {
+	color: #f38523;
+}
+.confirmation-modal .confirm {
+	padding: 15px 30px !important;
+	float: right;
+	color: #fff;
+	background: #f38523 !important;
+}
+.confirmation-modal button.close {
+	font-size: 40px;
+}
+.blockUI.blockOverlay {
+    z-index: 999998 !important;
+}
+.blockUI.blockMsg {
+    z-index: 999999 !important;
+}
